@@ -34,7 +34,7 @@ int32_t main()
         rand_number = rand_digits();
         reference_word = mnemonic_words[rand_number];
 
-        printf("Current Score: %03d | Random digits: %02d\n", score, rand_number);
+        printf("Current Score: %d | Random digits: %02d\n", score, rand_number);
         printf("Input:");
         if (fgets(buffer, BUFFER_SIZE, stdin) != NULL)
         {
